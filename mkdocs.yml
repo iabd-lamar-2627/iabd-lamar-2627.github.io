@@ -1,0 +1,60 @@
+site_name: IABD · IES La Mar
+site_description: Mini-cursos de apoyo del Curso de Especialización en Inteligencia Artificial y Big Data
+site_url: https://iabd-lamar-2627.github.io/
+repo_url: https://github.com/iabd-lamar-2627/iabd-lamar-2627.github.io
+repo_name: iabd-lamar-2627.github.io
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/weather-night
+        name: Modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+# Para añadir un mini-curso nuevo: crea la carpeta docs/<nombre>/ y añade su bloque aquí.
+nav:
+  - Inicio: index.md
+  - Python y entorno de trabajo:
+      - python/index.md
+      - 1. Instalar Python: python/01-instalar-python.md
+      - 2. Entornos virtuales: python/02-entorno-virtual.md
+      - 3. Librerías con pip: python/03-librerias-pip.md
+      - 4. VS Code y Jupyter: python/04-vscode-jupyter.md
+      - 5. Problemas habituales: python/05-problemas.md
+  - Git y GitHub:
+      - git/index.md
+      - 1. Qué es Git: git/01-que-es-git.md
+      - 2. Instalar y configurar: git/02-instalar-configurar.md
+      - 3. Tu primer repositorio: git/03-primer-repositorio.md
+      - 4. Trabajar con GitHub: git/04-github.md
+      - 5. Problemas habituales: git/05-problemas.md
