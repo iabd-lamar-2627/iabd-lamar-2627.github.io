@@ -16,6 +16,13 @@ Material de apoyo del curso 2026-27 en el IES La Mar. Aquí están los mini-curs
 
     [Empezar :material-arrow-right:](git/index.md)
 
+    -   **Hugging Face**
+
+    Qué es Hugging Face, cómo buscar modelos y Spaces, y cómo probarlos sin instalar nada.
+
+    [Empezar :material-arrow-right:](huggingface/index.md)
+
+
 </div>
 
 !!! info "Esta lista irá creciendo"
