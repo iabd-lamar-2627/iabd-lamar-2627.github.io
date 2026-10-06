@@ -58,3 +58,4 @@ nav:
       - 3. Tu primer repositorio: git/03-primer-repositorio.md
       - 4. Trabajar con GitHub: git/04-github.md
       - 5. Problemas habituales: git/05-problemas.md
+  - Hugging Face: huggingface/index.md
